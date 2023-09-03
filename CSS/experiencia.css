@@ -1,0 +1,34 @@
+.experiencia-flex{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.experiencia-tecnologias-adquiridas img{
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;    
+}
+
+.experiencia-tecnologias-aprendiendo img{
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;    
+}
+.experiencia-tecnologias-aprendiendo :first-child{
+    width: 120px;
+}
+
+#HS-Consulting{
+    color: orange;
+}
+
+#LinkedIn{
+    width: 28px ;
+    height: 28px;
+    float: inline-start;
+}

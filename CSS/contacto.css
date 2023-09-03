@@ -1,0 +1,22 @@
+.contacto-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    margin-bottom: 20px; 
+}
+
+.contacto-lista li{
+    list-style: none;
+    color: black;
+    margin-bottom: 10px;
+}
+.contacto-lista li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer h3{
+    margin-left: 10px;
+    
+}
+

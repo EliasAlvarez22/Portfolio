@@ -1,0 +1,10 @@
+.personal-titulo{
+    margin-top: 20px;
+}
+
+.flex-personal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
