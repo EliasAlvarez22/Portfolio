@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.presentacion-container{
+    height: 500px;
+    background-color: #000000cf;
+}
+.presentacion{
+    display: flex;
+    box-shadow: 0 2px 10px 2px #00000030;
+    max-width: 300px;
+    background-color: #f8f9fa;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5ex;
+
+}
+.contenido{
+    text-align:center ;
+    color: black;
+    width: 100%;
+    height: 50%;
+}
+
+
