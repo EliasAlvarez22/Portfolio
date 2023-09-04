@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="CSS/personal.css">
   <link rel="stylesheet" href="CSS/experiencia.css">
   <link rel="stylesheet" href="CSS/contacto.css">
+  <link rel="stylesheet" href="CSS/proyectos.css">
+  <link rel="stylesheet" href="CSS/genericos.css">
   <script src="https://kit.fontawesome.com/820b5e356d.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -28,12 +30,12 @@
   </header>
   <section class="flex presentacion-container">
     <article class="contenido presentacion">
-      <p>Hola ! Soy Desarrollador .NET || Front End.</p>
-      <p>Te invito a leer mi experiencia como Desarrollador !</p>
+      <p class="presentacion-parrafo">Hola ! Soy Desarrollador .NET || Front End.</p>
+      <p class="presentacion-parrafo">Te invito a leer mi experiencia como Desarrollador !</p>
       <article class="presentacion-iconos-links">
         <a href="https://www.linkedin.com/in/elias-alvarez-gutierrez/" target="_blank"><i id="LinkedIn-icono"
-            class="fab fa-linkedin-in icon-28"></i></a>
-        <a href="https://github.com/EliasAlvarez22" target="_blank"><i class="fab fa-github  icon-28"></i></a>
+            class="fab fa-linkedin-in icon-32"></i></a>
+        <a href="https://github.com/EliasAlvarez22" target="_blank"><i class="fab fa-github  icon-32"></i></a>
       </article>
     </article>
   </section>
@@ -59,29 +61,52 @@
       <img src="assets/Images/tecnologias/angular.png" alt="Angular">
       <img src="assets/Images/tecnologias/typescript.png" alt="TypeScript">
     </figure>
-
     <p>Actualmente estoy trabajando cómo Tester QA en <strong id="HS-Consulting">HS Consulting</strong>
       trabajando con las herramientas Azure DevOps y SQL Server</p>
-    <section class="proyectos-flex">
-      <h2>Proyectos</h2>
-      <article class="contenido presentacion">
-        <h3>Gestor de artículos</h3>
+  </main>
+
+  <section class="proyectos-flex">
+    <h2>Proyectos</h2>
+    <section class="flex proyecto-container">
+      <article class="proyecto-contenido proyectos-articulo">
+        <h3 class="proyecto-articulo-titulo">Gestor de artículos</h3>
+        <h4 class="proyecto-articulo-titulo"> Diseñada en .NET Framework Winforms, con conexiones a una base de datos
+          con ADO.NET. </h4>
+        <aside>
+          <a href="https://github.com/EliasAlvarez22/Gestor_de_Articulos" target="_blank" data-bs-toggle= "tooltip" data-bs-title="Default tooltip"><i
+              class="fab fa-github  icon-32"></i></a> <i></i>
+          <a class="btn btn-outline-primary btn-descripcion" data-bs-toggle="collapse" href="#descripcion-gestor" role="button"
+            aria-expanded="false" aria-controls="descripcion-gestor">Ver descripción</a>
+        </aside>
+        <div class="collapse multi-collapse" id="descripcion-gestor">
+          <p class="card card-body">
+            Es una aplicación de escritorio de un gestor de artículos, permite agregar, eliminar y
+            editar artículos según sus características. Visualizar lista de artículos, filtrar según la lista, exportar
+            PDF y Excel.
+            Permite además en gestionar Marcas o Categorías bajo operaciones de ABM.
+          </p>
+        </div>
       </article>
     </section>
+  </section>
 
-  </main>
   <footer>
     <h2 id="contacto" class="contacto-flex">Contacto</h2>
-    <h3>Información de contacto: </h3>
-    <ul class="contacto-lista">
-      <li>Email: alvarez.elias20@outlook.com</li>
-      <li><a href="https://www.linkedin.com/in/elias-alvarez-gutierrez/" target="_blank">LinkedIn <i id="LinkedIn-icono"
-            class="fab fa-linkedin-in icon-28"></i></a></li>
-    </ul>
+    <section class="contacto-contenido">
+      <h3>Información de contacto: </h3>
+      <ul class="contacto-lista">
+        <li>Email: alvarez.elias20@outlook.com</li>
+        <li><a href="https://www.linkedin.com/in/elias-alvarez-gutierrez/" target="_blank">LinkedIn <i
+              id="LinkedIn-icono" class="fab fa-linkedin-in icon-28"></i></a></li>
+      </ul>
+    </section>
   </footer>
+  <script src="index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
