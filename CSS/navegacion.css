@@ -6,7 +6,6 @@
 }
 .navegacion{
     background-color: blueviolet;    
-
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -41,5 +40,14 @@
     background-color: white;
     color: black;
     border: 1px solid white;
+}
+
+@media (max-width: 528px) {
+
+    .navegacion-menu-item{
+        display: block;
+
+    }
+
 }
 

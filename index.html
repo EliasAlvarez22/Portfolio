@@ -22,7 +22,7 @@
     <h1 class="navegacion-titulo">Elias Alvarez</h1>
     <nav class="navegacion-menu">
       <ul>
-        <li class="navegacion-menu-item"><a href="#sobre-mi">Sobre mí</a></li>
+        <li class="navegacion-menu-item"><a href="#educacion">Educación</a></li>
         <li class="navegacion-menu-item"><a href="#experiencia">Experiencia</a></li>
         <li class="navegacion-menu-item"><a href="#contacto">Contacto</a></li>
       </ul>
@@ -34,13 +34,13 @@
       <p class="presentacion-parrafo">Te invito a leer mi experiencia como Desarrollador !</p>
       <article class="presentacion-iconos-links">
         <a href="https://www.linkedin.com/in/elias-alvarez-gutierrez/" target="_blank"><i id="LinkedIn-icono"
-            class="fab fa-linkedin-in icon-32"></i></a>
-        <a href="https://github.com/EliasAlvarez22" target="_blank"><i class="fab fa-github  icon-32"></i></a>
+            class="fab fa-linkedin-in icon-32" data-bs-toggle="tooltip" data-bs-title="Mi LinkedIn"></i></a>
+        <a href="https://github.com/EliasAlvarez22" data-bs-toggle="tooltip" data-bs-title="Mi Github"
+          target="_blank"><i class="fab fa-github  icon-32"></i></a>
       </article>
     </article>
   </section>
-
-  <section id="sobre-mi" class="flex-personal">
+  <section id="educacion" class="flex-personal">
     <h2 class="personal-titulo">Educación</h2>
     <p>Estudiante de la carrera Técnico Universitario en Programacion en la UTN FRGP - Primer año - Segundo cuatrimestre
     </p>
@@ -49,8 +49,8 @@
     <h2 id="experiencia">Experiencia</h2>
     <p>Tengo experiencia en proyectos personales con las tecnologías: </p>
     <figure class="experiencia-tecnologias-adquiridas">
-      <img src="assets/Images/tecnologias/CSharp.png" alt="CSharp" ">
-        <img src=" assets/Images/tecnologias/cpp.png" alt="CPP">
+      <img src="assets/Images/tecnologias/CSharp.png" alt="CSharp">
+      <img src=" assets/Images/tecnologias/cpp.png" alt="CPP">
       <img src="assets/Images/tecnologias/js.png" alt="JS">
       <img src="assets/Images/tecnologias/net.png" alt=".NET">
       <img src="assets/Images/tecnologias/sql-server.png" alt="SQL Server">
@@ -64,19 +64,18 @@
     <p>Actualmente estoy trabajando cómo Tester QA en <strong id="HS-Consulting">HS Consulting</strong>
       trabajando con las herramientas Azure DevOps y SQL Server</p>
   </main>
-
   <section class="proyectos-flex">
     <h2>Proyectos</h2>
     <section class="flex proyecto-container">
       <article class="proyecto-contenido proyectos-articulo">
         <h3 class="proyecto-articulo-titulo">Gestor de artículos</h3>
-        <h4 class="proyecto-articulo-titulo"> Diseñada en .NET Framework Winforms, con conexiones a una base de datos
-          con ADO.NET. </h4>
+        <h4 class="proyecto-articulo-titulo">Diseñada en .NET Framework Winforms, con conexiones a base de datos con
+          ADO.NET</h4>
         <aside>
-          <a href="https://github.com/EliasAlvarez22/Gestor_de_Articulos" target="_blank" data-bs-toggle= "tooltip" data-bs-title="Default tooltip"><i
-              class="fab fa-github  icon-32"></i></a> <i></i>
-          <a class="btn btn-outline-primary btn-descripcion" data-bs-toggle="collapse" href="#descripcion-gestor" role="button"
-            aria-expanded="false" aria-controls="descripcion-gestor">Ver descripción</a>
+          <a href="https://github.com/EliasAlvarez22/Gestor_de_Articulos" target="_blank" data-bs-toggle="tooltip"
+            data-bs-title="Ir al github del proyecto"><i class="fab fa-github  icon-32"></i></a>
+          <a class="btn btn-outline-primary btn-descripcion" data-bs-toggle="collapse" href="#descripcion-gestor"
+            role="button" aria-expanded="false" aria-controls="descripcion-gestor">Ver descripción</a>
         </aside>
         <div class="collapse multi-collapse" id="descripcion-gestor">
           <p class="card card-body">
@@ -89,7 +88,7 @@
       </article>
     </section>
   </section>
-
+  </p>
   <footer>
     <h2 id="contacto" class="contacto-flex">Contacto</h2>
     <section class="contacto-contenido">
@@ -105,8 +104,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>
