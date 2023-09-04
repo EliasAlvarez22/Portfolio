@@ -45,3 +45,12 @@
 .LinkedIn-icono{
     border: 1 solid lightblue;
 }
+
+@media (max-width: 528px){
+    
+    .experiencia-parrafo{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}

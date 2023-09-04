@@ -54,12 +54,16 @@
 
 
 
-@media (max-width: 528px) {
+@media (max-width: 728px) {
 
     .proyectos-articulo{
         margin-left: 20px;
         margin-right: 20px;
+    }
 
+    .container{
+        padding-left: 6%;
+        padding-right: 6%;
     }
 
 }

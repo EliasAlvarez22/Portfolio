@@ -42,7 +42,7 @@
     border: 1px solid white;
 }
 
-@media (max-width: 528px) {
+@media (max-width: 728px) {
 
     .navegacion-menu-item{
         display: block;
