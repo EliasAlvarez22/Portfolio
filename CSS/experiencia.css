@@ -8,6 +8,10 @@
     padding-left: 2rem;
 }
 
+.experiencia-parrafo{
+    margin: 1.5rem 0 1.5rem 0;
+}
+
 .experiencia-tecnologias-adquiridas img{
     margin-right: 20px;
     border-radius: 5px;
@@ -38,6 +42,7 @@
 
 #HS-Consulting{
     color: orange;
+    display: contents;
 }
 
 #LinkedIn{
@@ -53,8 +58,8 @@
 @media (max-width: 728px){
     
     .experiencia-parrafo{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
 }
